@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.page{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.blog-post-page{
+ width: 50%;
+ height: auto;
+ border: 2px solid rgb(10, 230, 238);
+ 
+}
+
+.blogs{
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(171, 231, 7);
+  margin: auto;
+  
+  
+}
+.deleteBtn{
+ width: 100px;
+ height: 30px;
+ border-radius: 50px;
+}
+.update-Btn button{
+  width: 100px;
+ height: 30px;
+ border-radius: 50px;
+}
+
+.newPostForm{
+  width: 50%;
+  height: auto;
+  border: 2px solid hotpink;
+  position: relative;
+}
+.newPostForm form{
+  width: 100%;
+  height: 250px;
+  border: 1px solid seagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 100px;
+  
+}
+.newPostForm form input{
+  width: 100%;
+  height: 30px;
+  
+}
+.newPostForm form button{
+  height: 30px;
+  width: 100%;
+  border-radius: 50px;
+}
+.editOldPost{
+  width: 50%;
+  height: auto;
+  border: 2px solid hotpink;
+  position: relative;
+}
+.editOldPost form{
+  width: 100%;
+  height: 250px;
+  border: 1px solid rgb(32, 10, 235);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 100px;
+}
+.editOldPost form input{
+  width: 100%;
+  height: 30px;
+  
+}
+.editOldPost form button{
+  height: 30px;
+  width: 100%;
+  border-radius: 50px;
+}
